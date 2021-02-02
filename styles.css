@@ -1,0 +1,68 @@
+body {
+   background-image: url(https://www.kastapp.co/images/gradient-violet-bg.jpg);
+   position:relative;
+
+}
+
+.grid {
+    
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    
+}
+
+
+
+
+img{
+    position:relative ;
+    left:400;
+    right:0;
+    bottom:0;
+    top:0
+    
+}
+
+p{
+    text-align: center;
+    color:white;
+    font-size: 20;
+    font-family: sans-serif;
+    
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 30;
+    color:white;
+    font-family: sans-serif;
+
+}
+.wrapper{
+    background-color: white;
+
+    width:2000px;
+    height:2000px;
+}
+
+h2{
+    position:relative;
+    text-align: center;
+    z-index: 1;
+    color: #434146;
+    font-size: 24px;
+    font-family: Roboto,sans-serif
+}
+.button{
+    background-color: transparent;
+    position:relative;
+    left:50
+}
+.logo{
+    position: relative;
+    left:0%;
+    right:100%;
+
+}
